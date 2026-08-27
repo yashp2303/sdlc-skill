@@ -1,0 +1,22 @@
+ID,Section,Scenario,Type,Level,Expected,Status,Evidence,Notes
+QA-001,1 Positive,<concrete situation>,positive,unit,<observable result>,⬜,,AC-1
+QA-002,1 Positive,<concrete situation>,positive,integration,<observable result>,⬜,,AC-2
+QA-003,2 Negative,<invalid input>,negative,unit,rejects with <ERROR_CODE>,⬜,,BR-1
+QA-004,2 Negative,<missing precondition>,negative,unit,rejects with <ERROR_CODE>,⬜,,
+QA-005,3 Edge,exactly at the boundary,edge,unit,<result>,⬜,,BR-2
+QA-006,3 Edge,one unit below the boundary,edge,unit,<result>,⬜,,BR-2
+QA-007,3 Edge,one unit above the boundary,edge,unit,<result>,⬜,,
+QA-008,3 Edge,zero,edge,unit,<result>,⬜,,
+QA-009,3 Edge,negative,edge,unit,rejects with <ERROR_CODE>,⬜,,
+QA-010,3 Edge,null,edge,unit,rejects with <ERROR_CODE>,⬜,,
+QA-011,3 Edge,rounding,edge,unit,<result>,⬜,,
+QA-012,3 Edge,concurrent,edge,integration,<result>,⬜,,
+QA-013,3 Edge,retried delivery,edge,integration,<result>,⬜,,
+QA-014,3 Edge,record created before this feature existed,edge,integration,<result>,⬜,,
+QA-015,4 Business Rules,<prohibited state constructed>,rule,unit,<the refusal>,⬜,,BR-3
+QA-016,5 UI,primary flow,ui,e2e,<result>,⬜,,AC-1
+QA-017,5 UI,loading state,ui,integration,<result>,⬜,,
+QA-018,5 UI,empty state,ui,integration,<result>,⬜,,
+QA-019,5 UI,error state,ui,integration,<result>,⬜,,
+QA-020,5 UI,keyboard-only completion,ui,e2e,<result>,⬜,,
+QA-021,5 UI,error message is comprehensible,ui,manual,<result>,⬜,,
