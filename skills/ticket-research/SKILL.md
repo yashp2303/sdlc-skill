@@ -1,6 +1,6 @@
 ---
 name: ticket-research
-description: Take a ticket title and description, research the actual code, and write one research.md per ticket — verified facts with file:line, every name checked for existence, open questions with defaults, and the blockers. Read-only; it writes no code and no spec. Use when a ticket arrives and you need to know what it really touches before estimating or planning. Trigger: /ticket-research
+description: "Take a ticket title and description, research the actual code, and write one research.md per ticket — verified facts with file:line, every name checked for existence, open questions with defaults, and the blockers. Read-only; it writes no code and no spec. Use when a ticket arrives and you need to know what it really touches before estimating or planning. Trigger: /ticket-research"
 ---
 
 # ticket-research

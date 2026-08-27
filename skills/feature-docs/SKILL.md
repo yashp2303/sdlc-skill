@@ -1,6 +1,6 @@
 ---
 name: feature-docs
-description: Turn a feature requirement into the five-file docs pack — spec.md, plan.md, test-cases.md, test-cases.csv, qa-sheet.md — in the house format, in a per-ticket folder under docs/. Use when a feature requirement, ticket, or change request arrives and the specification, plan, test scenarios, or QA sheet need writing. Trigger: /feature-docs
+description: "Turn a feature requirement into the five-file docs pack — spec.md, plan.md, test-cases.md, test-cases.csv, qa-sheet.md — in the house format, in a per-ticket folder under docs/. Use when a feature requirement, ticket, or change request arrives and the specification, plan, test scenarios, or QA sheet need writing. Trigger: /feature-docs"
 ---
 
 # feature-docs

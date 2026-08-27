@@ -1,6 +1,6 @@
 ---
 name: rca
-description: Investigate a reported bug end-to-end across every system in the affected flow and produce an evidence-backed Root Cause Analysis. Strictly read-only — no writes, no retries, no reprocessing, no deploys. Finds the FIRST incorrect state, never guesses. Use when a production or UAT bug is reported. Trigger: /rca
+description: "Investigate a reported bug end-to-end across every system in the affected flow and produce an evidence-backed Root Cause Analysis. Strictly read-only — no writes, no retries, no reprocessing, no deploys. Finds the FIRST incorrect state, never guesses. Use when a production or UAT bug is reported. Trigger: /rca"
 ---
 
 # Bug Investigation and RCA

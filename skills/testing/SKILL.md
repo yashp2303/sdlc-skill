@@ -1,6 +1,6 @@
 ---
 name: testing
-description: Execute and validate unit, integration, API, regression, and end-to-end tests for an approved implementation. Evidence-based — never claim a test passed unless it was executed and the result observed. Use after implementation and before code review/validation. Trigger: /testing
+description: "Execute and validate unit, integration, API, regression, and end-to-end tests for an approved implementation. Evidence-based — never claim a test passed unless it was executed and the result observed. Use after implementation and before code review/validation. Trigger: /testing"
 ---
 
 # Testing Skill

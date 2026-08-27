@@ -1,6 +1,6 @@
 ---
 name: tsc-ticket
-description: End-to-end handling of a TSC ticket across the four-repo workspace — investigate with file:line evidence, write spec/plan/QA in the TWP-5704 house format, implement, test, and report. Use when a TSC or TWP ticket arrives, or when asked to spec, plan, estimate, implement, or write test cases for one. Trigger: /tsc-ticket
+description: "End-to-end handling of a TSC ticket across the four-repo workspace — investigate with file:line evidence, write spec/plan/QA in the TWP-5704 house format, implement, test, and report. Use when a TSC or TWP ticket arrives, or when asked to spec, plan, estimate, implement, or write test cases for one. Trigger: /tsc-ticket"
 ---
 
 # TSC ticket, end to end
